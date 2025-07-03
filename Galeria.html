@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Galería de Arte</title>
+  <link rel="stylesheet" href="style.css">
+
+  <script>
+  window.onload = function() {
+      const respuesta = confirm("¿Eres amante del arte? Esta página te gustará.");
+      if (!respuesta) {
+        alert(":( Adiós");
+        window.location.href = "https://www.google.com";
+      }
+    };
+  </script>
+</head>
+
+<body>
+  <section class="sect1">
+    <h1>ARTE & VIDA</h1>
+
+  <header>
+    <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#epocas">Épocas</a></li>
+        <li><a href="#artistas">Artistas</a></li>
+        <li><a href="#nosotros">Sobre Nosotros</a></li>
+    </ul>
+    </header>
+
+</section>
+
+<section class="sect2">
+  <header class="encabezado2">
+    <h1>Obras de Arte Famosas</h1>
+    <div class="parrafo-centrado">
+    <p>Bienvenido a nuestra galería de arte, un espacio donde la creatividad
+      y la inspiración cobran vida.</p>
+      <p>Cada pieza cuenta una historia única y te invita a sumergirte en el
+         mundo del arte.</p>
+      <p>Te invitamos a disfrutar de esta experiencia visual
+          y emocional.
+      </p>
+  </header>
+  </section>
+
+<section class="sect6">
+  <header>
+    <nav>
+      <a href="#roma">Galería en Roma</a>
+      <a href="#francia">Galería en Francia</a>
+      <a href="#españa">Galería en España</a>
+    </nav>
+  </header>
+</section>
+
+  <section class="galeria">
+    <div class="obra">
+      <img src="ave.jpg" alt="Mona Lisa">
+      <h2>El Jilguero</h2>
+      <p><strong>Autor:</strong> Carel Fabritius</p>
+      <p>En la época, solían capturar esta ave para tenerla como mascota y se las entrenaba
+         para que bebiesen de un recipiente escondido en el interior del refugio de madera o
+          para que llevasen en el pico granos de alimento hasta las manos de los dueños.</p>
+    </div>
+
+    <div class="obra">
+      <img src="lisa.jpg" alt="Mona Lisa">
+      <h2>La Gioconda o
+         Monna Lisa</h2>
+      <p><strong>Autor:</strong> Leonardo da Vinci</p>
+      <p>Una de las pinturas más famosas del mundo, reconocida por su misteriosa sonrisa
+        es el retrato de Lisa Gherardini, esposa de Francesco del Giocondo.
+      </p>
+    </div>
+
+    <div class="obra">
+      <img src="gogh.jpg" alt="La noche estrellada">
+      <h2>La noche estrellada</h2>
+      <p><strong>Autor:</strong> Vincent van Gogh</p>
+      <p>Esta obra de Vincent van Gogh es una representación emocional del cielo nocturno, con
+         colores vibrantes y un marcado movimiento.</p>
+    </div>
+
+    <div class="obra">
+      <img src="frag.jpg" alt="El Grito">
+      <h2>El columpio
+        (L'escarpolette)</h2>
+      <p><strong>Autor:</strong> Jean-Honoré Fragonard</p>
+      <p>El columpio, una obra maestra de Fragonard,
+         donde se recoge el espíritu refinado, exótico y sensual propio del rococó.</p>
+    </section>
+
+    <section class="galeria2">
+  <div class="obra2">
+    <img src="perla.jpg" alt="La Perla">
+    <h2>La Perla</h2>
+    <p><strong>Autor:</strong> Edvard Munch</p>
+    <p>Una obra expresionista que transmite ansiedad y angustia existencial.
+      Este retrato de Johannes Vermeer, conocido como "La niña con la perla",
+       se destaca por la delicadeza y la expresión serena de la joven modelo, así como por el uso magistral de la luz.
+    </p>
+  </div>
+
+  <div class="obra">
+      <img src="dyk.jpg" alt="Mona Lisa">
+      <h2>Los hijos de Carlos I</h2>
+      <p><strong>Autor:</strong> Anthony van Dyk</p>
+      <p>Esta pintura de Anthony van Dyck muestra a los hijos del rey Carlos I
+         de Inglaterra, retratados con elegancia y porte aristocrático.</p>
+    </div>
+
+  <div class="obra2">
+    <img src="remb.jpg" alt="Rembrandt">
+    <h2>Rembrandt</h2>
+    <p><strong>Autor:</strong> Rembrandt van Rijn</p>
+    <p>Conocido por su uso dramático de la luz y la sombra.
+      Esta obra de Claude Joseph Vernet representa una escena dramática de una tormenta
+       en el mar, con un barco a punto de naufragar entre las olas y los relámpagos.</p>
+  </div>
+
+  <div class="obra2">
+    <img src="vlz.jpg" alt="Valázquez">
+    <h2>La marquesa de Pompadour</h2>
+    <p><strong>Autor:</strong> Diego Velázquez</p>
+    <p>Este retrato de François Boucher muestra a la famosa amante del rey Luis XV de Francia,
+       Madame de Pompadour, rodeada de símbolos de su posición y refinamiento.</p>
+  </div>
+</section>
+
+<section class="sect3" id="roma">
+  <div class="container">
+    <div class="info-wrapper">
+      <h2>Galería en Roma</h2>
+      <p>Galería Borghese</p>
+      <p>Dirección: Piazzale del Museo Borghese, 5, 00197 Roma RM, Italia</p>
+      <p>Horario: Martes a Domingo, 8:30 am - 7:30 pm</p>
+    </div>
+    <div class="video-container">
+      <div class="video-wrapper">
+        <video width="250" height="400" controls>
+          <source src="Roma.mp4" type="video/mp4">
+          <source src="Roma.ogg" type="video/ogg">
+        </video>
+      </div>
+      <div class="description-wrapper">
+        <p>Descubre la riqueza artística de la Galería en Roma, donde se conservan algunas de las obras maestras más icónicas de la historia. Desde los frescos de la Capilla Sixtina hasta las esculturas de Miguel Ángel, esta galería es un verdadero tesoro que te transportará a la grandeza del Renacimiento italiano.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sect3" id="francia">
+  <div class="container">
+    <div class="info-wrapper">
+      <h2>Galería en Francia</h2>
+      <p>Galería D'Apollon</p>
+      <p>Dirección: 1 Rue de la Légion d'Honneur, 75007 París, Francia</p>
+      <p>Horario: Martes a Domingo, 9:30 am - 6 pm</p>
+    </div>
+    <div class="video-container">
+      <div class="video-wrapper">
+        <video width="250" height="400" controls>
+          <source src="france.mp4" type="video/mp4">
+          <source src="france.ogg" type="video/ogg">
+        </video>
+      </div>
+      <div class="description-wrapper">
+        <p>Sumérgete en la elegancia y la refinada cultura artística de la Galería en Francia, donde podrás admirar obras maestras del impresionismo, el post-impresionismo y el art nouveau. Desde los lienzos de Monet hasta las esculturas de Rodin, esta galería es un reflejo de la belleza y la innovación que han caracterizado al arte francés a lo largo de los siglos.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sect3" id="españa">
+  <div class="container">
+    <div class="info-wrapper">
+      <h2>Galería en España</h2>
+      <p>Museo del Prado</p>
+      <p>Dirección: Calle de Ruiz de Alarcón, 23, 28014 Madrid, España</p>
+      <p>Horario: Lunes a Sábado, 10 am - 8 pm, Domingos y festivos, 10 am - 7 pm</p>
+    </div>
+    <div class="video-container">
+      <div class="video-wrapper">
+        <video width="250" height="400" controls>
+          <source src="españa.mp4" type="video/mp4">
+          <source src="españa.ogg" type="video/ogg">
+        </video>
+      </div>
+      <div class="description-wrapper">
+        <p>Explora la riqueza y diversidad de la Galería en España, donde podrás descubrir la pasión y la expresividad que caracterizan al arte español. Desde las obras de Velázquez y Goya hasta las creaciones surrealistas de Dalí y Miró, esta galería es un reflejo de la vibrante y apasionada cultura artística de España.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section>
+  <footer class="foot">
+    Instagram | Twiter | Facebook
+    <p>Contactos: 047796013 | arte&vida@gmail.com</p>
+    <p>®2020 Derechos Reservados</p>
+  </footer>
+</section>
+
+</body>
+</html>
